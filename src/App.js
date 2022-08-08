@@ -17,6 +17,7 @@ function App() {
       <NotificationCenter />
     </Router>
   );
+  
 }
 
 export default App;
