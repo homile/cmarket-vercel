@@ -1,6 +1,3 @@
-# workflow 이름
-name: bare Minimum
-
 # 이벤트 트리거 지정
 on: [push, pull_request]
 
