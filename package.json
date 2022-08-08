@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts test --watchAll=false && react-scripts build",
     "test": "jest src/index.test.js --verbose",
     "eject": "react-scripts eject",
     "report": "jest src/index.test.js --verbose --json --outputFile=report.jest.json",
